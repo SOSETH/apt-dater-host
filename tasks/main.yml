@@ -1,0 +1,8 @@
+--
+- name: install apt-dater-host
+  apt:
+    name: apt-dater-host
+    state: present
+    update_cache: yes
+    cache_valid_time: 1800
+

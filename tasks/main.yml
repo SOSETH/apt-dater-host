@@ -1,4 +1,4 @@
---
+---
 - name: install apt-dater-host
   apt:
     name: apt-dater-host
